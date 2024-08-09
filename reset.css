@@ -1,0 +1,85 @@
+/* Reset de estilo padrão para navegadores */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, u, var,
+b, bdo, button, fieldset, form, label, legend,
+li, menu, ol, ul, fieldset, dl, dt, dd,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, figcaption, figure, footer,
+header, hgroup, main, mark, menu, nav, section, summary,
+time, progress, output, video, audio {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  font-family: sans-serif; /* Altere a fonte para a sua preferência */
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption {
+  text-align: left;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+code {
+  font-family: monospace, monospace;
+}
+
+button, input, select, textarea {
+  font-family: sans-serif; /* Altere a fonte para a sua preferência */
+}
+
+button, input {
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+button:focus, input:focus {
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Estilos adicionais de acessibilidade */
+a:focus, button:focus, input:focus, select:focus, textarea:focus {
+  outline: 2px solid #000; /* Destaca elementos em foco para acessibilidade */
+}

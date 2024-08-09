@@ -1,0 +1,38 @@
+:root {
+    --color-white: #FFF;
+    --color-primary: #C31F6B;
+}
+nav {
+    height: 140px;
+    padding: 10px 50px;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+
+.navbar-nav {
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: 30px;
+    gap: 20px;
+    padding: 8px 20px;
+}
+
+.navbar-nav2 {
+    gap: 5px;
+}
+
+.nav-item {
+    height: fit-content;
+}
+
+.nav-item a {
+    padding: 0;
+    color: var(--color-white);
+    font-size: 13px;
+    font-family: "Righteous", sans-serif;
+    text-transform: uppercase;
+}
