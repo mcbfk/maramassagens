@@ -2,9 +2,24 @@
     --color-white: #FFF;
     --color-primary: #C31F6B;
 }
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;    
+    font-family: "Lora";
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+section {
+    position: relative;
+}
+
+/* Navbar */
+
 nav {
     height: 140px;
-    padding: 10px 50px;
 }
 
 #logo {
@@ -21,6 +36,10 @@ nav {
     padding: 8px 20px;
 }
 
+.navbar .container-fluid {
+    padding: 10px 150px;
+}
+
 .navbar-nav2 {
     gap: 5px;
 }
@@ -35,4 +54,191 @@ nav {
     font-size: 13px;
     font-family: "Righteous", sans-serif;
     text-transform: uppercase;
+}
+
+/* Home */
+
+.inicio {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    position: relative;
+    background-image: url("./img/background-inicio.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 80vh;
+}
+
+.inicio .box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.inicio .img-avatar {
+    max-width: 480px;
+    margin-bottom: 80px;
+}
+
+.inicio h1 {
+    font-family: "Lora";
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFF;
+}
+
+.inicio p {
+    max-width: 620px;
+    font-family: "Lora";
+    font-weight: 600;
+    font-size: 20px;
+    color: #F7ECEF;
+}
+
+.inicio .separador {
+    width: 100%;
+    position: absolute;
+    bottom: -60px;
+}
+
+.inicio .btnLow {
+    position: absolute;
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.inicio .btnLow img {
+    text-shadow: 0 0 10px rgba(255, 119, 255, 0.6), 0 0 20px rgba(255, 119, 255, 0.4);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.inicio .btnLow img:hover {
+    transform: scale(1.1)
+}
+
+.inicio .btnLow p {
+    text-shadow: 0 0 10px rgba(255, 119, 255, 0.6), 0 0 20px rgba(255, 119, 255, 0.4);
+    animation: pulsar 4s infinite;
+    cursor: pointer;
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.inicio .botao-agendar {
+    max-width: 230px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #B14562;
+    border: 3px solid #8E374E;
+    border-radius: 30px;
+    padding: 12px;
+}
+
+
+/* Sobre */
+
+.sobre div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.sobre p {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 400px; 
+}
+
+.sobre .separador {
+    position: absolute;
+    bottom: -60px;
+}
+
+/* Servicos */
+
+.servicos .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.servicos .card {
+    max-width: 320px;
+    height: 400px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #FFF;
+    background-color: rgba(177, 69, 98, 0.3); 
+    box-shadow: 3px 4px 14px 1px rgba(255, 108, 148, 0.46);
+}
+
+.servicos .card h3 {
+    font-family: "Righteous";
+    font-size: 20px;
+}
+
+.servicos .card img {
+    max-width: 220px;
+}
+
+.servicos .card p {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Contato */
+
+.contato img {
+    fill: #000;
+}
+
+.maps {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 80px auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 105, 180, 0.6);
+    box-shadow: 0 0 8px rgba(255, 105, 180, 0.3);
+    background: rgba(255, 105, 180, 0.1);
+}
+
+.maps iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
 }
