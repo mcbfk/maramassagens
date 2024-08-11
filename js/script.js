@@ -56,3 +56,40 @@ $(window).scroll(function() {
   }
 });
 
+/* backTop */
+
+document.addEventListener('DOMContentLoaded', function() {
+  const homeSection = document.querySelector('.inicio');
+  const backTopButton = document.querySelector('.backTop');
+  let isBackTopVisible = false;
+
+  // Função para verificar se o botão deve ser exibido ou ocultado
+  function toggleBackTopButton() {
+    const triggerOffset = 40; // Quantidade de pixels acima da homeSection para exibir o botão
+    if (window.scrollY > homeSection.offsetHeight) {
+      if (!isBackTopVisible) {
+        backTopButton.style.display = 'block';
+        isBackTopVisible = true;
+      }
+    } else {
+      if (isBackTopVisible) {
+        backTopButton.style.display = 'none';
+        isBackTopVisible = false;
+      }
+    }
+  }
+
+  // Função para rolar suavemente para o topo
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  // Adiciona o evento para exibir/ocultar o botão ao rolar a página
+  window.addEventListener('scroll', toggleBackTopButton);
+
+  // Adiciona o evento para rolar suavemente para o topo quando o botão é pressionado
+  backTopButton.addEventListener('click', scrollToTop);
+});

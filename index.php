@@ -35,21 +35,25 @@
           <h3>Massagem tântrica</h3>
           <img src="<?php bloginfo('template_url'); ?>/img/img-massagem-tantrica.png" alt="" />
           <p>Revitalize seu corpo e mente com nossa massagem relaxante. Sinta o alívio do estresse e a serenidade em cada toque. Agende seu momento de tranquilidade hoje mesmo!</p>
+          <button>Clique para ver mais</button>
         </div>
         <div class="card">
           <h3>Massagem relaxante energética</h3>
           <img src="<?php bloginfo('template_url'); ?>/img/img-massagem-relaxante.png" alt="" />
           <p>Revitalize seu corpo e mente com nossa massagem relaxante. Sinta o alívio do estresse e a serenidade em cada toque. Agende seu momento de tranquilidade hoje mesmo!</p>
+          <button>Clique para ver mais</button>
         </div>
         <div class="card">
           <h3>Reike</h3>
           <img src="<?php bloginfo('template_url'); ?>/img/img-reike.png" alt="" />
           <p>Revitalize seu corpo e mente com nossa massagem relaxante. Sinta o alívio do estresse e a serenidade em cada toque. Agende seu momento de tranquilidade hoje mesmo!</p>
+          <button>Clique para ver mais</button>
         </div>
         <div class="card">
           <h3>Tise</h3>
           <img src="<?php bloginfo('template_url'); ?>/img/img-tise.png" alt="" />
           <p>Revitalize seu corpo e mente com nossa massagem relaxante. Sinta o alívio do estresse e a serenidade em cada toque. Agende seu momento de tranquilidade hoje mesmo!</p>
+          <button>Clique para ver mais</button>
         </div>
       </div>
     </section>
