@@ -37,6 +37,11 @@ nav {
     left: 70px;
 }
 
+.navbar .container-fluid .navbar-toggler {
+    border: 1px solid #B14562;
+    background: #B14562;
+}
+
 .navbar-nav {
     align-items: center;
     background-color: var(--color-primary);
