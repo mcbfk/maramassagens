@@ -56,10 +56,11 @@ $(window).scroll(function() {
   }
 });
 
+
 /* backTop */
 
 document.addEventListener('DOMContentLoaded', function() {
-  const homeSection = document.querySelector('.inicio');
+  const homeSection = document.querySelector('#inicio');
   const backTopButton = document.querySelector('.backTop');
   let isBackTopVisible = false;
 

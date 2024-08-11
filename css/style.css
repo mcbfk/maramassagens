@@ -1,5 +1,5 @@
 :root {
-    --color-whi`: #FFF;
+    --color-white: #FFF;
     --color-primary: #C31F6B;
 }
 
@@ -35,6 +35,10 @@ nav {
     position: absolute;
     top: 10px;
     left: 70px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 .navbar .container-fluid .navbar-toggler {
@@ -163,6 +167,8 @@ nav {
 
 .inicio .botao-agendar {
     max-width: 230px;
+    text-decoration: none;
+    text-align: center;
     font-size: 18px;
     font-family: "Roboto";
     font-weight: bold;
@@ -186,10 +192,10 @@ nav {
 }
 
 .sobre p {
+    max-width: 500px; 
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 600;
-    max-width: 400px; 
 }
 
 /* Servicos */
@@ -212,6 +218,7 @@ nav {
     border: 5px solid #FFF;
     background-color: rgba(177, 69, 98, 0.3); 
     box-shadow: 3px 4px 14px 1px rgba(255, 108, 148, 0.46);
+    cursor: pointer;
 }
 
 .servicos .card button {
@@ -303,8 +310,8 @@ nav {
 
 /* backTop */
 
-.backTop {
-	display: none;
+.backTop {  
+    display: none;
 	position: fixed;
 	font-size: 18px;
 	right: 40px;
@@ -330,6 +337,30 @@ nav {
 
     .sobre img {
         width: 390px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .navbar-collapse {
+        border-radius: 10px;
+        z-index: 9;
+    }
+    
+    .navbar-nav {
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+        gap: 0;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        background: #B14562;
+        border: 1px solid #FFF;
+        border-radius: 10px;
     }
 }
 
