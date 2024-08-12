@@ -63,6 +63,15 @@ nav {
     gap: 5px;
 }
 
+/* Estilo padrão (Desktop) */
+.navbar-nav .nav-item:nth-child(3) {
+    /* order: -1; Deixa o ícone Home no centro na versão desktop */
+}
+
+.navbar-nav .nav-item:first-child {
+    /* order: 1; "Sobre" na posição original */
+}
+
 .nav-item {
     height: fit-content;
     color: #FFF;
@@ -330,6 +339,64 @@ nav {
 	transition: transform 0.4s;
 }
 
+/* modal */
+
+.modal-title {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.modal-content {
+	border: 4px solid #B14562!important;
+	border-radius: 6px!important;
+	color: #FFF!important;
+}
+
+.modal-header, .modal-body {
+	align-items: normal!important;
+	background-color: #2D2E2B;
+	border: 0!important;
+	border-radius: 0!important;
+}
+
+.modal-body {
+	padding: 0 34px!important;
+	padding-bottom: 20px!important;
+    font-weight: 500;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+	padding-right: 1rem!important;
+}
+
+.btn-close {
+	display: none;
+	margin-left: 20px;
+}
+
+.custom-close-icon {
+	width: 16px;
+	height: 16px;
+	padding: 0!important;
+}
+
+.custom-close-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.custom-close-icon::before {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/close.png");
+    background-size: cover;
+}
+
+
 @media screen and (max-width: 1024px) {
     .inicio .separador {
         bottom: -30px;
@@ -341,7 +408,7 @@ nav {
 }
 
 @media screen and (max-width: 991px) {
-    
+
     .navbar-collapse {
         border-radius: 10px;
         z-index: 9;
@@ -354,6 +421,16 @@ nav {
         gap: 0;
     }
 
+    .navbar-nav .nav-item:nth-child(3) {
+        order: -1; 
+    }
+
+    .navbar-nav2 {
+        display: flex;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+    
     .nav-item {
         width: 100%;
         padding: 10px;
