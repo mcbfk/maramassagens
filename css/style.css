@@ -266,6 +266,35 @@ nav {
 
 /* Contato */
 
+.services {
+    position: relative;
+}
+
+.contato {
+    position: relative; /* Define o contexto de empilhamento para os filhos */
+    height: 80vh;
+}
+
+.contato .background {
+    position: absolute; /* Define o posicionamento absoluto */
+    width: 80%;
+    top: -20px;
+    left: 50%; /* Move o elemento para o meio horizontalmente */
+    transform: translateX(-50%);
+}
+
+
+.contato-content {
+    position: relative; /* Garante que o conteúdo esteja acima da imagem */
+    margin: 0 auto; /* Centraliza horizontalmente se o elemento for um bloco com largura definida */
+    padding: 20px; /* Ajuste o padding conforme necessário */
+    text-align: center; /* Opcional: centraliza o texto */
+    z-index: 1; /* Garante que o conteúdo esteja acima da imagem */
+    width: 80%; /* Ajuste a largura conforme necessário */
+    max-width: 1200px; /* Opcional: define a largura máxima */
+}
+
+
 .contato img {
     fill: #000;
 }

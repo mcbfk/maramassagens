@@ -7,25 +7,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Social Media Meta Tags -->
-    <meta property="og:title" content="Silmara Depilação - Experiência e Cuidado">
-    <meta property="og:description" content="Silmara é uma profissional com mais de 10 anos de experiência, oferecendo serviços de depilação e massagem. Ela é a melhor opção, a mais cuidadosa e experiente no mercado.">
-    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/img/favicon.webp">
-    <meta property="og:url" content="https://silmara.com.br/">
-    <meta property="og:image:type" content="image/webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
+    <meta property="og:title" content="Mara Massagens - Experiência e Cuidado">
+    <meta property="og:description" content="Mara é uma profissional com anos de experiência, oferecendo serviços de massagem e bem-estar. A melhor opção em cuidado e profissionalismo em São Carlos.">
+    <meta property="og:image" content="<?php bloginfo('template_url'); ?>/img/favicon/android-chrome-192x192.png">
+    <meta property="og:url" content="https://maramassagens.com.br/">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="192">
+    <meta property="og:image:height" content="192">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Silmara Depilação - Experiência e Cuidado">
-    <meta name="twitter:description" content="Silmara é uma profissional com mais de 10 anos de experiência, oferecendo serviços de depilação e massagem. Ela é a melhor opção, a mais cuidadosa e experiente no mercado.">
-    <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/img/avatar.webp">
-    <meta name="twitter:image:alt" content="Imagem da Silmara Depilação">
+    <meta name="twitter:title" content="Mara Massagens - Experiência e Cuidado">
+    <meta name="twitter:description" content="Mara é uma profissional com anos de experiência, oferecendo serviços de massagem e bem-estar. A melhor opção em cuidado e profissionalismo em São Carlos.">
+    <meta name="twitter:image" content="<?php bloginfo('template_url'); ?>/img/favicon/android-chrome-192x192.png">
+    <meta name="twitter:image:alt" content="Imagem da Mara Massagens">
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Silmara ofere serviços especializados de depilação e massagem com mais de 10 anos de experiência. Conheça a melhor opção em cuidado e profissionalismo.">
-    <meta name="keywords" content="Silmara Depilação, depilação, massagem, Depilação São Carlos cuidados pessoais, profissional de estética">
-    <meta name="author" content="Silmara Depilação">
+    <meta name="description" content="Mara oferece serviços especializados de massagem com anos de experiência. Conheça a melhor opção em cuidado e profissionalismo em São Carlos.">
+    <meta name="keywords" content="Mara Massagens, massagem, bem-estar, Massagens São Carlos cuidados pessoais, profissional de estética">
+    <meta name="author" content="Mara Massagens">
 
     <!-- Language -->
     <meta name="language" content="pt-BR">
@@ -42,38 +42,38 @@
     <meta name="theme-color" content="#b14562">
 
     <!-- Copyright Information -->
-    <meta name="copyright" content="">
+    <meta name="copyright" content="Mara Massagens">
 
     <title><?php wp_title(); ?></title>
 
     <!-- Favicons -->
-    <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon.webp" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_url'); ?>/img/favicon.webp">
+    <link rel="icon" href="<?php bloginfo('template_url'); ?>/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_url'); ?>/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('template_url'); ?>/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_url'); ?>/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="<?php bloginfo('template_url'); ?>/img/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="<?php bloginfo('template_url'); ?>/img/favicon/android-chrome-512x512.png">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://silmara.com.br/">
-
-    <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="<?php bloginfo("template_url"); ?>reset.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
-
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/2c3f2c52e4.js" crossorigin="anonymous"></script>
-
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/reset.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
+
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/b9cfc138ce.js" crossorigin="anonymous"></script>
 
     <?php wp_head(); ?>
+</head>
+<body>
+
+<body>
+
 <body>
   <button class="backTop"><i class="fa-solid fa-chevron-up"></i></button>
     <header>
