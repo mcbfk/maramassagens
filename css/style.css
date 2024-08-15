@@ -3,6 +3,10 @@
     --color-primary: #C31F6B;
 }
 
+a:focus{
+    outline: none;
+}
+
 h2 {
     margin-top: 60px;
     margin-bottom: 20px;    
@@ -23,6 +27,11 @@ section {
 
 img {
     max-width: 100%;
+}
+
+.backTop i, footer i {
+    font-family: "FontAwesome", sans-serif;    
+    font-style: normal;
 }
 
 /* Navbar */
@@ -234,6 +243,7 @@ nav {
     font-size: 14px;
     font-family: "Roboto";
     font-weight: bold;
+    margin-top: 30px;
     color: #FFF;
     text-transform: uppercase;
     background-color: #B14562;
@@ -273,6 +283,10 @@ nav {
 .contato {
     position: relative; /* Define o contexto de empilhamento para os filhos */
     height: 80vh;
+    background-size: contain;
+    background-image: url("../img/background-contato.png");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contato .background {
@@ -283,26 +297,13 @@ nav {
     transform: translateX(-50%);
 }
 
-
-.contato-content {
-    position: relative; /* Garante que o conteúdo esteja acima da imagem */
-    margin: 0 auto; /* Centraliza horizontalmente se o elemento for um bloco com largura definida */
-    padding: 20px; /* Ajuste o padding conforme necessário */
-    text-align: center; /* Opcional: centraliza o texto */
-    z-index: 1; /* Garante que o conteúdo esteja acima da imagem */
-    width: 80%; /* Ajuste a largura conforme necessário */
-    max-width: 1200px; /* Opcional: define a largura máxima */
-}
-
-
-.contato img {
-    fill: #000;
-}
-
 .contato .box-contato {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
     align-items: center;
     gap: 20px;
 }
@@ -313,13 +314,22 @@ nav {
 }
 
 .contato h3 {
+    text-align: center;
     font-size: 16px;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
 }
 
 .contato .sociais {
     display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
     margin-top: 20px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .maps {
@@ -354,7 +364,7 @@ nav {
 	position: fixed;
 	font-size: 18px;
 	right: 40px;
-	bottom: 40px;
+	bottom: 90px;
 	border-radius: 100px;
 	background-color: #B14562;
 	width: 60px;
@@ -473,18 +483,21 @@ nav {
 
 @media screen and (max-width: 769px){
 
+    .contato {
+        background-size: cover;
+    }
+
     .navbar .container-fluid {
+        padding: 0 60px;
+    }
+
+    .inicio {
         padding: 0 20px;
+        gap: 0;
     }
 
     .inicio .separador {
         bottom: -20px;
-    }
-    
-    .inicio {
-        align-items: normal;
-        padding: 120px 15px;
-        gap: 0;
     }
 
     .inicio .box-text {
@@ -508,10 +521,6 @@ nav {
 
     h2 {
         margin-top: 40px;
-    }
-
-    .inicio {
-        padding: 65px 15px;
     }
 
     .inicio .btnLow {

@@ -62,6 +62,7 @@
 
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/reset.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/style.css">
 
@@ -76,15 +77,15 @@
 
 <body>
   <button class="backTop"><i class="fa-solid fa-chevron-up"></i></button>
-    <header>
+  <header>
         <nav class="navbar navbar-expand-lg bg-body-white">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img id="logo" src="<?php bloginfo('template_url'); ?>/img/Logo.png" alt="Logo Mara Massagens"></a>
+              <a class="navbar-brand" href="#"><img id="logo" src="https://maramassagens.com.br/wp-content/themes/maramassagens/img/Logo.png" alt="Logo Mara Massagens"></a>
               
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="<?php bloginfo('template_url'); ?>/img/menu1.png" alt="navbar icon mobile">
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="https://maramassagens.com.br/wp-content/themes/maramassagens/img/menu1.png" alt="navbar icon mobile">
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
                     <a class="nav-link" href="#sobre">sobre</a>
@@ -104,17 +105,17 @@
                 </ul>
                 <ul class="navbar-nav navbar-nav2">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.facebook.com/depilacao.cera.natural/?locale=pt_BR">
+                        <a class="nav-link" href="https://www.facebook.com/depilacao.cera.natural/?locale=pt_BR" target="_blank">
                           <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 16 16" id="Facebook"><path fill="#ffffff" fill-rule="evenodd" d="M12 5.5H9v-2a1 1 0 0 1 1-1h1V0H9a3 3 0 0 0-3 3v2.5H4V8h2v8h3V8h2l1-2.5z" clip-rule="evenodd" class="color1976d2 svgShape"></path></svg>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://wa.me/5516997945011">
+                        <a class="nav-link" href="https://wa.me/5516997945011" target="_blank">
                           <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 48 48" id="Whatsapp"><path fill="#ffffff" fill-rule="evenodd" d="M23.993 0C10.763 0 0 10.765 0 24a23.824 23.824 0 0 0 4.57 14.067l-2.99 8.917 9.224-2.948A23.81 23.81 0 0 0 24.007 48C37.237 48 48 37.234 48 24S37.238 0 24.007 0h-.014zm-6.7 12.19c-.466-1.114-.818-1.156-1.523-1.185a13.55 13.55 0 0 0-.804-.027c-.918 0-1.877.268-2.455.86-.705.72-2.454 2.398-2.454 5.841s2.51 6.773 2.849 7.239c.353.465 4.895 7.632 11.947 10.553 5.515 2.286 7.152 2.074 8.407 1.806 1.834-.395 4.133-1.75 4.711-3.386.579-1.637.579-3.034.41-3.33-.17-.296-.636-.465-1.34-.818-.706-.353-4.134-2.046-4.783-2.272-.634-.24-1.24-.155-1.72.522-.677.946-1.34 1.905-1.876 2.483-.423.452-1.115.509-1.693.268-.776-.324-2.948-1.086-5.628-3.47-2.074-1.849-3.484-4.148-3.893-4.84-.41-.705-.042-1.114.282-1.495.353-.438.691-.748 1.044-1.157.352-.41.55-.621.776-1.1.24-.466.07-.946-.1-1.3-.168-.352-1.579-3.795-2.157-5.191z" class="color67c15e svgShape"></path></svg>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.instagram.com/silmaradepilacaooficial/">
+                        <a class="nav-link" href="https://www.instagram.com/silmaradepilacaooficial/" target="_blank">
                           <svg xmlns="http://www.w3.org/2000/svg" width="20px" viewBox="0 0 16 16" id="Instagram"><path d="M11 0H5a5 5 0 0 0-5 5v6a5 5 0 0 0 5 5h6a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zm3.5 11c0 1.93-1.57 3.5-3.5 3.5H5c-1.93 0-3.5-1.57-3.5-3.5V5c0-1.93 1.57-3.5 3.5-3.5h6c1.93 0 3.5 1.57 3.5 3.5v6z" fill="#ffffff" class="color000000 svgShape"></path><path d="M8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 6.5A2.503 2.503 0 0 1 5.5 8c0-1.379 1.122-2.5 2.5-2.5s2.5 1.121 2.5 2.5c0 1.378-1.122 2.5-2.5 2.5z" fill="#ffffff" class="color000000 svgShape"></path><circle cx="12.3" cy="3.7" r=".533" fill="#ffffff" class="color000000 svgShape"></circle></svg>
                         </a>
                     </li>
@@ -123,4 +124,3 @@
             </div>
         </nav>
       </header>
-
